@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FFC52B35229EA50300789787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC52B34229EA50300789787 /* AppDelegate.swift */; };
-		FFC52B37229EA50300789787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC52B36229EA50300789787 /* ViewController.swift */; };
+		FFC52B37229EA50300789787 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC52B36229EA50300789787 /* LoginViewController.swift */; };
 		FFC52B3A229EA50300789787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC52B38229EA50300789787 /* Main.storyboard */; };
 		FFC52B3D229EA50300789787 /* coreData1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFC52B3B229EA50300789787 /* coreData1.xcdatamodeld */; };
 		FFC52B3F229EA50500789787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC52B3E229EA50500789787 /* Assets.xcassets */; };
 		FFC52B42229EA50500789787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC52B40229EA50500789787 /* LaunchScreen.storyboard */; };
+		FFC52B4A229EA55400789787 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC52B49229EA55400789787 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FFC52B31229EA50200789787 /* coreData1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreData1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC52B34229EA50300789787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFC52B36229EA50300789787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFC52B36229EA50300789787 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FFC52B39229EA50300789787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFC52B3C229EA50300789787 /* coreData1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreData1.xcdatamodel; sourceTree = "<group>"; };
 		FFC52B3E229EA50500789787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFC52B41229EA50500789787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFC52B43229EA50500789787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC52B49229EA55400789787 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				FFC52B34229EA50300789787 /* AppDelegate.swift */,
-				FFC52B36229EA50300789787 /* ViewController.swift */,
+				FFC52B36229EA50300789787 /* LoginViewController.swift */,
+				FFC52B49229EA55400789787 /* RegisterViewController.swift */,
 				FFC52B38229EA50300789787 /* Main.storyboard */,
 				FFC52B3E229EA50500789787 /* Assets.xcassets */,
 				FFC52B40229EA50500789787 /* LaunchScreen.storyboard */,
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFC52B3D229EA50300789787 /* coreData1.xcdatamodeld in Sources */,
-				FFC52B37229EA50300789787 /* ViewController.swift in Sources */,
+				FFC52B37229EA50300789787 /* LoginViewController.swift in Sources */,
 				FFC52B35229EA50300789787 /* AppDelegate.swift in Sources */,
+				FFC52B4A229EA55400789787 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69A2X4F4L8;
 				INFOPLIST_FILE = coreData1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69A2X4F4L8;
 				INFOPLIST_FILE = coreData1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
